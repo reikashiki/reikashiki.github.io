@@ -3,27 +3,33 @@
   padding: 0;
 }
 
+.top_clear{
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
 
 body {
     font-family: Orator Std , YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
-    background-color: #f4a47d;
+    background-color: #8bc564;
     font-size: 14px;
     text-align: center;
     color: #41210d;
 }
 
 body h1{
-   font-family:Chalk duster, Orator Std , YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-family:Chalk duster, Orator Std , YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
   font-size: 50px;
+  
 }
 
-
+/*
+↓↓このnav達まとめられそうだけど…
+*/
 
 nav ul li {
   margin: 25px 20px;
   display: inline-block;
   padding: 10px 0; 
-   text-align: center;
 }
 
 nav {
@@ -38,14 +44,18 @@ nav ul li a {
 }
 
 nav ul li a .selected{
-    color: #000;
+    color: #41210d;
 }
 
-
-.form-horizontal{
-  width: 100%;
-   text-align: center;
+.junbi{
+    text-align: center;
+    
 }
+
+.junbi img{
+     max-width: 170px;
+}
+
 
 footer {
   padding: 20px 0;
